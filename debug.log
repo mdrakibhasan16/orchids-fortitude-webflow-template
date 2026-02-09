@@ -1,0 +1,28 @@
+2026-02-09T21:40:00.314Z [console][error] ./user/app/src/components/sections
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+2026-02-09T21:40:00.314Z [console][error] ./user/app/src/components/sections
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+2026-02-09T21:40:00.314Z [console][error] ./user/app/src/components/sections
+Invalid import
+'client-only' cannot be imported from a Server Component module. It should only be used from a Client Component.
+The error was caused by using 'styled-jsx'. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
+2026-02-09T21:40:33.015Z [console][warn] Image with src "https://cdn.prod.website-files.com/625a7fd81dde5ff598e46825/62629614edfda77fcff391cb_location-04.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:40:33.029Z [console][warn] Image with src "https://cdn.prod.website-files.com/625a7fd81dde5ff598e46825/626297b14e44b41beacb4303_location-05.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:40:35.197Z [console][warn] Image with src "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/2d0ca149-ad4b-48ea-bc50-ee48cb957796-fortitude-template-webflow-io/assets/images/626282546fd9a411c272da78_room-small-04-9.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:40:35.222Z [console][warn] Image with src "https://cdn.prod.website-files.com/625a7fd81dde5ff598e46825/626297b2edfda7146af3a158_location-01.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:40:35.492Z [console][warn] Image with src "https://cdn.prod.website-files.com/625a7fd81dde5ff598e46825/626296144ea9defee7d7048b_location-03.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:40:35.514Z [console][warn] Image with src "https://cdn.prod.website-files.com/625a7fd81dde5ff598e46825/62629614335cf4b7937f69ca_location-02.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:40:35.546Z [console][warn] Image with src "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/2d0ca149-ad4b-48ea-bc50-ee48cb957796-fortitude-template-webflow-io/assets/icons/6262827b293d3f71f15f6d5d_room-small-hover-03-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:40:35.576Z [console][warn] Image with src "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/2d0ca149-ad4b-48ea-bc50-ee48cb957796-fortitude-template-webflow-io/assets/icons/626282f1454abae1992df290_room-small-hover-01-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:40:35.845Z [console][warn] Image with src "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/2d0ca149-ad4b-48ea-bc50-ee48cb957796-fortitude-template-webflow-io/assets/icons/62628257ad9327fdc31ba311_room-small-hover-04-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-09T21:41:16.995Z [console][warn] [HMR] Invalid message: {"isTrusted":true}
+TypeError: Cannot convert undefined or null to object
+    at Object.keys (<anonymous>)
+    at extractModulesFromTurbopackMessage (https://3000-3b6ea9b8-6cfa-4eae-9416-071f6e68c45b.orchids.cloud/_next/static/chunks/45749_next_dist_client_9dc14bf5._.js:15051:39)
+    at TurbopackHmr.onTurbopackMessage (https://3000-3b6ea9b8-6cfa-4eae-9416-071f6e68c45b.orchids.cloud/_next/static/chunks/45749_next_dist_client_9dc14bf5._.js:14956:32)
+    at processMessage (https://3000-3b6ea9b8-6cfa-4eae-9416-071f6e68c45b.orchids.cloud/_next/static/chunks/45749_next_dist_client_9dc14bf5._.js:15355:30)
+    at WebSocket.handler (https://3000-3b6ea9b8-6cfa-4eae-9416-071f6e68c45b.orchids.cloud/_next/static/chunks/45749_next_dist_client_9dc14bf5._.js:15565:17)
