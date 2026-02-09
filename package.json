@@ -1,7 +1,9 @@
 {
-    "name": "app",
-    "version": "0.1.0",
+    "name": "star-residence-bd",
+    "version": "1.0.0",
     "private": true,
+    "description": "Star Residence - Luxury Living in Uttara, Dhaka",
+    "author": "Star Residence IT Team",
     "scripts": {
         "dev": "next dev --turbopack",
         "build": "next build",
